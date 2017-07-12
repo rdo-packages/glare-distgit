@@ -1,0 +1,14 @@
+
+[Unit]
+Description=OpenStack Artifact Service deferred artifact deletion service
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=glare
+ExecStart=/usr/bin/glare-scrubber
+PrivateTmp=true
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
