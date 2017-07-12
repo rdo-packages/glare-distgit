@@ -1,0 +1,130 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa7fdbe_14ddf170",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-07-12T11:46:13Z",
+      "side": 1,
+      "message": "please rename this package to python-glare-tests-unit.\nIt will contain the unit tests for glare project.\nAlso create a new subpackage named python-glare-tests-tempest subpackage for tempest plugin.",
+      "range": {
+        "startLine": 136,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 30
+      },
+      "revId": "9cd0135009f6c171531417d4e0ed02441655e388",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_34daf578",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-07-12T11:46:13Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 140,
+        "startChar": 0,
+        "endLine": 140,
+        "endChar": 34
+      },
+      "revId": "9cd0135009f6c171531417d4e0ed02441655e388",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_54e77940",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-07-12T11:46:13Z",
+      "side": 1,
+      "message": "Create a fake tempest plugin entrypoint here by adding\n%py2_entrypoint glare glare",
+      "revId": "9cd0135009f6c171531417d4e0ed02441655e388",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_74e47d3b",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-07-12T11:46:13Z",
+      "side": 1,
+      "message": "exclude unit tests also.\nwe can do that by %exclude %{python2_sitelib}/glare/tests and add this file under python-glare-tests-unit subpackage",
+      "revId": "9cd0135009f6c171531417d4e0ed02441655e388",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_b4d50545",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-07-12T11:46:13Z",
+      "side": 1,
+      "message": "It is not needed as License is coming from python-glare subpackage",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 16
+      },
+      "revId": "9cd0135009f6c171531417d4e0ed02441655e388",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_94d00155",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-07-12T11:46:13Z",
+      "side": 1,
+      "message": "It will go under python-glare-tests-tempest subpackage also include %{python2_sitelib}/glare_tests.egg-info in this subpackage.\n\nunder python-glare-tests-unit subpackage:  %{python2_sitelib}/glare/tests will come.",
+      "range": {
+        "startLine": 219,
+        "startChar": 0,
+        "endLine": 219,
+        "endChar": 39
+      },
+      "revId": "9cd0135009f6c171531417d4e0ed02441655e388",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
