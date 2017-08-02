@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8c0949_f59247f5",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "rename this unit tests sub package to python-glare-tests-unit",
+      "range": {
+        "startLine": 138,
+        "startChar": 12,
+        "endLine": 138,
+        "endChar": 30
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_1590b3eb",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "rename this unit tests sub package to python-glare-tests-unit",
+      "range": {
+        "startLine": 142,
+        "startChar": 16,
+        "endLine": 142,
+        "endChar": 34
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_35bccf6c",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "replace this with %autosetup -n %{service}-%{upstream_version} -S git and add BuildRequires: git above",
+      "range": {
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 43
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_55c15be3",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "replace it with %py_req_cleanup rpm macro.\nand add BuildRequires: openstack-macros",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 57
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_75b6578c",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "Please include License and README.rst.\nAdd %license LICENSE and %doc README.rst",
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_b5afdf2a",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "It will go under a new subpackage python-glare-tests-tempest.",
+      "range": {
+        "startLine": 253,
+        "startChar": 0,
+        "endLine": 254,
+        "endChar": 44
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_d5ac6b38",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "Move it under python-glare subpackage.",
+      "range": {
+        "startLine": 257,
+        "startChar": 0,
+        "endLine": 257,
+        "endChar": 15
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8c0949_15a7d350",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-08-02T11:30:44Z",
+      "side": 1,
+      "message": "Please add %license LICENSE",
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
