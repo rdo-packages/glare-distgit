@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_a7f896c5",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "Is it necessary? I see that all other projects combine their tests in one package \"python-%{service}-tests\".\n\nFor instance, \nmistral: https://github.com/rdo-packages/mistral-distgit/blob/rpm-master/openstack-mistral.spec#L179-L184\n\nvitrage: https://github.com/rdo-packages/vitrage-distgit/blob/rpm-master/openstack-vitrage.spec#L139-L147\n\nheat: https://github.com/rdo-packages/heat-distgit/blob/rpm-master/openstack-heat.spec#L137-L140",
+      "parentUuid": "7a8c0949_f59247f5",
+      "range": {
+        "startLine": 138,
+        "startChar": 12,
+        "endLine": 138,
+        "endChar": 30
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8c0949_1590b3eb",
         "filename": "openstack-glare.spec",
         "patchSetId": 8
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_e7029eb3",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8c0949_35bccf6c",
+      "range": {
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 43
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8c0949_55c15be3",
         "filename": "openstack-glare.spec",
         "patchSetId": 8
@@ -82,6 +130,30 @@
       "writtenOn": "2017-08-02T11:30:44Z",
       "side": 1,
       "message": "replace it with %py_req_cleanup rpm macro.\nand add BuildRequires: openstack-macros",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 57
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_c7f5a2cc",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8c0949_55c15be3",
       "range": {
         "startLine": 181,
         "startChar": 0,
@@ -111,6 +183,24 @@
     },
     {
       "key": {
+        "uuid": "5a890539_07008aa9",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8c0949_75b6578c",
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8c0949_b5afdf2a",
         "filename": "openstack-glare.spec",
         "patchSetId": 8
@@ -122,6 +212,30 @@
       "writtenOn": "2017-08-02T11:30:44Z",
       "side": 1,
       "message": "It will go under a new subpackage python-glare-tests-tempest.",
+      "range": {
+        "startLine": 253,
+        "startChar": 0,
+        "endLine": 254,
+        "endChar": 44
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_6726ae6a",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "The same question as above: seems like all other projects combine it in one package. Why should we do otherwise?\n\nExample: mistral\nhttps://github.com/rdo-packages/mistral-distgit/blob/rpm-master/openstack-mistral.spec#L363-L367",
+      "parentUuid": "7a8c0949_b5afdf2a",
       "range": {
         "startLine": 253,
         "startChar": 0,
@@ -157,6 +271,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_272ca64a",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8c0949_d5ac6b38",
+      "range": {
+        "startLine": 257,
+        "startChar": 0,
+        "endLine": 257,
+        "endChar": 15
+      },
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8c0949_15a7d350",
         "filename": "openstack-glare.spec",
         "patchSetId": 8
@@ -168,6 +306,24 @@
       "writtenOn": "2017-08-02T11:30:44Z",
       "side": 1,
       "message": "Please add %license LICENSE",
+      "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_872b9a2f",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 8
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-07T14:23:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8c0949_15a7d350",
       "revId": "7b07f60e660e4303f6a445b3ee2687f4d3bf390d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
