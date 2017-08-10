@@ -16,6 +16,24 @@
       "revId": "077554928d93ffb144df973153771d1c903c25b9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_a55de9eb",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 362
+      },
+      "writtenOn": "2017-08-10T12:45:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a890539_65a061f5",
+      "revId": "077554928d93ffb144df973153771d1c903c25b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
