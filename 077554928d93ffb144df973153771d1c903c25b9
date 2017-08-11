@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a890539_20f9e74d",
+        "filename": "openstack-glare-api.service",
+        "patchSetId": 10
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-08-11T08:46:20Z",
+      "side": 1,
+      "message": "by default logs are only sent to journal. For consistency with the rest of services, that send logs to files under /var/log/\u003cservice\u003e, i\u0027d add option --log-file /var/log/glare/api.log",
+      "revId": "077554928d93ffb144df973153771d1c903c25b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_c08823c9",
+        "filename": "openstack-glare-scrubber.service",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-08-11T08:46:20Z",
+      "side": 1,
+      "message": "Missing --config-file /etc/glare/glare.conf?\n\nThe same as for api service, i\u0027d add --log-file /var/log/glare/scrubber.log",
+      "revId": "077554928d93ffb144df973153771d1c903c25b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a890539_65a061f5",
         "filename": "openstack-glare.spec",
         "patchSetId": 10
@@ -31,6 +65,57 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "5a890539_65a061f5",
+      "revId": "077554928d93ffb144df973153771d1c903c25b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_40bc336d",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-08-11T08:46:20Z",
+      "side": 1,
+      "message": "Could we run unit tests in %check section?",
+      "revId": "077554928d93ffb144df973153771d1c903c25b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_00930bfb",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-08-11T08:46:20Z",
+      "side": 1,
+      "message": "When starting glare services i get following error:\n\n2017-08-11 08:29:23.193 6044 INFO glance_store._drivers.filesystem [-] Directory to write image files does not exist (/var/lib/glance/images). Creating.\n2017-08-11 08:29:23.193 6044 ERROR glance_store._drivers.filesystem [-] Unable to create datadir: /var/lib/glance/images: OSError: [Errno 13] Permission denied: \u0027/var/lib/glance\u0027\n\nI\u0027m not sure how is this expected to work:\n\n1. If glare uses it\u0027s own directory for file backend, default value for filesystem_store_datadir should be changed to /var/lib/glare/images instead of /var/lib/glance/images.\n\n2. If glare needs to share directory with glance, then some adjustments are needed in permissions for directories.",
+      "revId": "077554928d93ffb144df973153771d1c903c25b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_209007ec",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-08-11T08:46:20Z",
+      "side": 1,
+      "message": "Do api and scrubber services always run in the same server?, if not, it may be worthy to create separated subpackages?",
       "revId": "077554928d93ffb144df973153771d1c903c25b9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
