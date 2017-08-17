@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a890539_508f9c23",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-08-17T08:57:24Z",
+      "side": 1,
+      "message": "This should be %post api",
+      "range": {
+        "startLine": 266,
+        "startChar": 1,
+        "endLine": 266,
+        "endChar": 4
+      },
+      "revId": "4afbfb7ed12e24061d8ebdac98b4427c052fe19e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
