@@ -159,9 +159,7 @@ Summary:        OpenStack glare api
 
 Requires:       %{name}-common = %{version}-%{release}
 
-Requires(post):   systemd
-Requires(preun):  systemd
-Requires(postun): systemd
+%{?systemd_requires}
 
 %description api
 OpenStack Glare provides API for catalog of binary data along with its metadata.
