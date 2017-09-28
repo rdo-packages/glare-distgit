@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fa81d914_5041640a",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-09-28T08:44:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa81d914_104d2c73",
+      "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa81d914_b03620e6",
         "filename": "openstack-glare.spec",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "fa81d914_70466825",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-09-28T08:44:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa81d914_b03620e6",
+      "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa81d914_f03098ea",
         "filename": "openstack-glare.spec",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2017-09-28T08:28:28Z",
       "side": 1,
       "message": "same here",
+      "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa81d914_904afc25",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-09-28T08:44:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa81d914_f03098ea",
       "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
