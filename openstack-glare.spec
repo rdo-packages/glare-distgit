@@ -2,6 +2,9 @@
 
 %global with_doc 1
 
+%global common_desc \
+OpenStack Glare provides API for catalog of binary data along with its metadata.
+
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:             openstack-%{service}
@@ -141,7 +144,7 @@ Requires:         python-boto
 Requires(pre):    shadow-utils
 
 %description -n   python-glare
-OpenStack Glare provides API for catalog of binary data along with its metadata.
+%{common_desc}
 
 This package contains the glare python library.
 
@@ -151,7 +154,7 @@ Summary:        Components common to all OpenStack glare services
 Requires:       python-glare = %{version}-%{release}
 
 %description    common
-OpenStack Glare provides API for catalog of binary data along with its metadata.
+%{common_desc}
 
 %package        api
 
@@ -162,7 +165,7 @@ Requires:       %{name}-common = %{version}-%{release}
 %{?systemd_requires}
 
 %description api
-OpenStack Glare provides API for catalog of binary data along with its metadata.
+%{common_desc}
 
 This package contains the glare API service.
 
@@ -173,7 +176,7 @@ Requires:       python-glare = %{version}-%{release}
 Requires:       python-tempest
 
 %description -n python-glare-tests
-OpenStack Glare provides API for catalog of binary data along with its metadata.
+%{common_desc}
 
 This package contains the Glare test files.
 
@@ -196,9 +199,9 @@ BuildRequires:    python-oslo-policy
 BuildRequires:    python-osprofiler
 
 %description    doc
-OpenStack Glare documentaion.
-.
-This package contains the documentation
+%{common_desc}
+
+This package contains Openstack Glare documentation
 %endif
 
 
