@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa81d914_104d2c73",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 424
+      },
+      "writtenOn": "2017-09-28T08:28:28Z",
+      "side": 1,
+      "message": "Nit: Capitalization of Glare",
+      "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa81d914_b03620e6",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 424
+      },
+      "writtenOn": "2017-09-28T08:28:28Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa81d914_f03098ea",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 424
+      },
+      "writtenOn": "2017-09-28T08:28:28Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "79fab637055721c6be5883ea63e20eec8eeb8430",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
