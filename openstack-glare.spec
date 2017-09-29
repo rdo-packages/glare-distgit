@@ -8,8 +8,8 @@ OpenStack Glare provides API for catalog of binary data along with its metadata.
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:             openstack-%{service}
-Version:          XXX
-Release:          XXX
+Version:          0.4.1
+Release:          1%{?dist}
 Summary:          Glare Artifact Repository
 License:          ASL 2.0
 URL:              https://github.com/openstack/%{service}
@@ -322,3 +322,6 @@ exit 0
 %endif
 
 %changelog
+* Fri Sep 29 2017 Alfredo Moralejo <amoralej@redhat.com> 0.4.1-1
+- Update to 0.4.1
+
