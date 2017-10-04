@@ -328,3 +328,4 @@ exit 0
 * Fri Sep 29 2017 Alfredo Moralejo <amoralej@redhat.com> 0.4.1-1
 - Update to 0.4.1
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/glare/commit/?id=5c0139f2bc3a0e4883d30bd60bfaab90c6917524
