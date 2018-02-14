@@ -23,63 +23,63 @@ Source11:         %{name}-scrubber.service
 BuildRequires:    git
 BuildRequires:    intltool
 BuildRequires:    python2-devel
-BuildRequires:    python-pbr
-BuildRequires:    python-setuptools
+BuildRequires:    python2-pbr
+BuildRequires:    python2-setuptools
 BuildRequires:    openstack-macros
 BuildRequires:    systemd
 # Required for config generation
-BuildRequires:    python-alembic
-BuildRequires:    python-cryptography
-BuildRequires:    python-cursive
-BuildRequires:    python-eventlet
-BuildRequires:    python-futurist
-BuildRequires:    python-glance-store
+BuildRequires:    python2-alembic
+BuildRequires:    python2-cryptography
+BuildRequires:    python2-cursive
+BuildRequires:    python2-eventlet
+BuildRequires:    python2-futurist
+BuildRequires:    python2-glance-store
 BuildRequires:    python-httplib2
-BuildRequires:    python-iso8601
-BuildRequires:    python-jsonpatch
-BuildRequires:    python-jsonschema
-BuildRequires:    python-jwt
-BuildRequires:    python-keystoneauth1
-BuildRequires:    python-keystoneclient
-BuildRequires:    python-keystonemiddleware
+BuildRequires:    python2-iso8601
+BuildRequires:    python2-jsonpatch
+BuildRequires:    python2-jsonschema
+BuildRequires:    python2-jwt
+BuildRequires:    python2-keystoneauth1
+BuildRequires:    python2-keystoneclient
+BuildRequires:    python2-keystonemiddleware
 BuildRequires:    python-memcached
-BuildRequires:    python-microversion-parse
+BuildRequires:    python2-microversion-parse
 BuildRequires:    python-monotonic
-BuildRequires:    python-os-brick
-BuildRequires:    python-oslo-concurrency
-BuildRequires:    python-oslo-config
-BuildRequires:    python-oslo-context
-BuildRequires:    python-oslo-db-tests
-BuildRequires:    python-oslo-i18n
-BuildRequires:    python-oslo-log
-BuildRequires:    python-oslo-messaging
-BuildRequires:    python-oslo-middleware
-BuildRequires:    python-oslo-policy
-BuildRequires:    python-oslo-serialization
-BuildRequires:    python-oslo-service
-BuildRequires:    python-oslo-utils
-BuildRequires:    python-oslo-versionedobjects
-BuildRequires:    python-oslo-vmware
-BuildRequires:    python-osprofiler
+BuildRequires:    python2-os-brick
+BuildRequires:    python2-oslo-concurrency
+BuildRequires:    python2-oslo-config
+BuildRequires:    python2-oslo-context
+BuildRequires:    python2-oslo-db-tests
+BuildRequires:    python2-oslo-i18n
+BuildRequires:    python2-oslo-log
+BuildRequires:    python2-oslo-messaging
+BuildRequires:    python2-oslo-middleware
+BuildRequires:    python2-oslo-policy
+BuildRequires:    python2-oslo-serialization
+BuildRequires:    python2-oslo-service
+BuildRequires:    python2-oslo-utils
+BuildRequires:    python2-oslo-versionedobjects
+BuildRequires:    python2-oslo-vmware
+BuildRequires:    python2-osprofiler
 BuildRequires:    python-paste
 BuildRequires:    python-paste-deploy
-BuildRequires:    python-pbr
+BuildRequires:    python2-pbr
 BuildRequires:    python-retrying
-BuildRequires:    python-routes
+BuildRequires:    python2-routes
 BuildRequires:    python-semantic-version
-BuildRequires:    python-six
-BuildRequires:    python-sqlalchemy
-BuildRequires:    python-swiftclient
-BuildRequires:    python-taskflow
+BuildRequires:    python2-six
+BuildRequires:    python2-sqlalchemy
+BuildRequires:    python2-swiftclient
+BuildRequires:    python2-taskflow
 BuildRequires:    python-webob
-BuildRequires:    pyOpenSSL
+BuildRequires:    python2-pyOpenSSL
 # Required for tests
-BuildRequires:    python-os-testr
-BuildRequires:    python-oslotest
-BuildRequires:    python-testrepository
-BuildRequires:    python-testscenarios
-BuildRequires:    python-testtools
-BuildRequires:    python-mock
+BuildRequires:    python2-os-testr
+BuildRequires:    python2-oslotest
+BuildRequires:    python2-testrepository
+BuildRequires:    python2-testscenarios
+BuildRequires:    python2-testtools
+BuildRequires:    python2-mock
 BuildRequires:    python-requests-mock
 
 %description
@@ -90,56 +90,57 @@ Glare Artifact Repository
 Summary:          OpenStack Glare python libraries
 
 
-Requires:         python-alembic >= 0.8.7
-Requires:         python-cryptography >= 1.0
-Requires:         python-eventlet >= 0.18.2
-Requires:         python-futurist >= 0.11.0
-Requires:         python-glance-store >= 0.18.0
+Requires:         python2-alembic >= 0.8.10
+Requires:         python2-cryptography >= 1.7.2
+Requires:         python2-eventlet >= 0.18.2
+Requires:         python2-futurist >= 0.11.0
+Requires:         python2-glance-store >= 0.22.0
 Requires:         python-httplib2 >= 0.7.5
-Requires:         python-iso8601 >= 0.1.11
-Requires:         python-jsonpatch >= 1.1
-Requires:         python-jsonschema >= 2.0.0
-Requires:         python-jwt >= 1.0.1
-Requires:         python-keystoneauth1 >= 2.18.0
-Requires:         python-keystoneclient >= 1:3.8.0
-Requires:         python-keystonemiddleware >= 4.12.0
-Requires:         python-memcached >= 1.54
-Requires:         python-microversion-parse >= 0.1.2
+Requires:         python2-iso8601 >= 0.1.11
+Requires:         python2-jsonpatch >= 1.1
+Requires:         python2-jsonschema >= 2.0.0
+Requires:         python2-jwt >= 1.0.1
+Requires:         python2-keystoneauth1 >= 3.1.0
+Requires:         python2-keystoneclient >= 1:3.8.0
+Requires:         python2-keystonemiddleware >= 4.12.0
+Requires:         python-memcached >= 1.56
+Requires:         python2-microversion-parse >= 0.1.2
 Requires:         python-monotonic >= 0.6
-Requires:         python-os-brick >= 1.8.0
-Requires:         python-oslo-concurrency >= 3.8.0
-Requires:         python-oslo-config >= 2:3.14.0
-Requires:         python-oslo-context >= 2.12.0
-Requires:         python-oslo-db >= 4.15.0
-Requires:         python-oslo-i18n >= 2.1.0
-Requires:         python-oslo-log >= 3.11.0
-Requires:         python-oslo-messaging >= 5.14.0
-Requires:         python-oslo-middleware >= 3.0.0
-Requires:         python-oslo-policy >= 1.17.0
-Requires:         python-oslo-serialization >= 1.10.0
-Requires:         python-oslo-service >= 1.10.0
-Requires:         python-oslo-utils >= 3.18.0
-Requires:         python-oslo-versionedobjects >= 1.17.0
-Requires:         python-oslo-vmware >= 0.11.1
-Requires:         python-osprofiler >= 1.4.0
+Requires:         python2-os-brick >= 1.8.0
+Requires:         python2-oslo-concurrency >= 3.8.0
+Requires:         python2-oslo-config >= 4.0.0
+Requires:         python2-oslo-context >= 2.14.0
+Requires:         python2-oslo-db >= 4.24.0
+Requires:         python2-oslo-i18n >= 2.1.0
+Requires:         python2-oslo-log >= 3.22.0
+Requires:         python2-oslo-messaging >= 5.24.2
+Requires:         python2-oslo-middleware >= 3.27.0
+Requires:         python2-oslo-policy >= 1.23.0
+Requires:         python2-oslo-serialization >= 1.10.0
+Requires:         python2-oslo-service >= 1.10.0
+Requires:         python2-oslo-utils >= 3.20.0
+Requires:         python2-oslo-versionedobjects >= 1.17.0
+Requires:         python2-oslo-vmware >= 0.11.1
+Requires:         python2-osprofiler >= 1.4.0
 Requires:         python-paste
 Requires:         python-paste-deploy >= 1.5.0
-Requires:         python-pbr >= 1.8
+Requires:         python2-pbr >= 2.0.0
 Requires:         python-retrying >= 1.2.3
-Requires:         python-routes >= 1.12.3
+Requires:         python2-routes >= 2.3.1
 Requires:         python-semantic-version >= 2.3.1
-Requires:         python-six >= 1.9.0
-Requires:         python-sqlalchemy >= 1.0.10
-Requires:         python-swiftclient >= 2.2.0
-Requires:         python-taskflow >= 2.7.0
-Requires:         python-webob >= 1.6.0
-Requires:         pyOpenSSL >= 0.14
+Requires:         python2-six >= 1.9.0
+Requires:         python2-sqlalchemy >= 1.0.10
+Requires:         python2-swiftclient >= 2.2.0
+Requires:         python2-taskflow >= 2.7.0
+Requires:         python-webob >= 1.7.1
+Requires:         python2-pyOpenSSL >= 0.14
+Requires:         python2-wsme >= 0.8
 
 #test deps: python-mox python-nose python-requests
 #test and optional store:
 #ceph - glance_store.rdb
 #python-boto - glance_store.s3
-Requires:         python-boto
+Requires:         python2-boto
 
 Requires(pre):    shadow-utils
 
@@ -173,7 +174,7 @@ This package contains the Glare API service.
 %package -n python-glare-tests
 Summary:        Glare tests
 Requires:       python-glare = %{version}-%{release}
-Requires:       python-tempest
+Requires:       python2-tempest
 
 %description -n python-glare-tests
 %{common_desc}
@@ -185,18 +186,18 @@ This package contains the Glare test files.
 
 Summary:        Documentation for OpenStack Artifact Service
 
-BuildRequires:    python-sphinx
-BuildRequires:    python-oslo-sphinx
+BuildRequires:    python2-sphinx
+BuildRequires:    python2-oslo-sphinx
 BuildRequires:    python-sphinxcontrib-httpdomain
-BuildRequires:    python-eventlet
-BuildRequires:    python-jsonschema
-BuildRequires:    python-keystoneclient
-BuildRequires:    python-keystonemiddleware
-BuildRequires:    python-oslo-db
-BuildRequires:    python-oslo-log
-BuildRequires:    python-oslo-messaging
-BuildRequires:    python-oslo-policy
-BuildRequires:    python-osprofiler
+BuildRequires:    python2-eventlet
+BuildRequires:    python2-jsonschema
+BuildRequires:    python2-keystoneclient
+BuildRequires:    python2-keystonemiddleware
+BuildRequires:    python2-oslo-db
+BuildRequires:    python2-oslo-log
+BuildRequires:    python2-oslo-messaging
+BuildRequires:    python2-oslo-policy
+BuildRequires:    python2-osprofiler
 
 %description    doc
 %{common_desc}
