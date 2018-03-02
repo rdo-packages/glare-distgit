@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ab14d0d_2fe49139",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-03-02T10:00:25Z",
+      "side": 1,
+      "message": "We have python-jsonpatch \u003d 1.14 in pike repo. Is there any known issue with this release, do you need to bump it to 1.16?",
+      "range": {
+        "startLine": 100,
+        "startChar": 18,
+        "endLine": 100,
+        "endChar": 42
+      },
+      "revId": "d2471dc1d5ea9215f59b89eb71b675febeca9ec3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
