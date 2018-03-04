@@ -22,6 +22,30 @@
       "revId": "d2471dc1d5ea9215f59b89eb71b675febeca9ec3",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_cfaf6d7c",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 446
+      },
+      "writtenOn": "2018-03-04T14:13:57Z",
+      "side": 1,
+      "message": "JSONPatch version which is getting installed with this 1.2 by default. Which is very old and missing InvalidJsonPatch \n Exception class.\nThough 1.14 has that exception class should be okay, But according to requirement.txt in Glare it should have been 1.16 for this release.\n\nhttps://github.com/openstack/glare/blob/master/requirements.txt#L31",
+      "parentUuid": "1ab14d0d_2fe49139",
+      "range": {
+        "startLine": 100,
+        "startChar": 18,
+        "endLine": 100,
+        "endChar": 42
+      },
+      "revId": "d2471dc1d5ea9215f59b89eb71b675febeca9ec3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
