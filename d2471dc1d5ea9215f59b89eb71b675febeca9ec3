@@ -46,6 +46,30 @@
       "revId": "d2471dc1d5ea9215f59b89eb71b675febeca9ec3",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab14d0d_aab88fe6",
+        "filename": "openstack-glare.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-03-06T15:26:16Z",
+      "side": 1,
+      "message": "When installing RDO, it will automatically pick the latest version available in the repo, for RDO pike that\u0027s 1.14. We missed the 1.16 update in the dependencies repo during pike cycle. If 1.14 should be ok, you can update the requires to \u003e\u003d 1.14. If update to 1.16 is really needed we can try to rebuild 1.16 in pike deps repo but updating dependencies is something we try to avoid in stable releases after GA unless it\u0027s justified.",
+      "parentUuid": "1ab14d0d_cfaf6d7c",
+      "range": {
+        "startLine": 100,
+        "startChar": 18,
+        "endLine": 100,
+        "endChar": 42
+      },
+      "revId": "d2471dc1d5ea9215f59b89eb71b675febeca9ec3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
