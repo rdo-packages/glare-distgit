@@ -1,0 +1,8 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Workflow+1: Kushal Agrawal <agrawalkushal90@gmail.com>
+Verified+2: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Submitted-by: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Submitted-at: Thu, 08 Mar 2018 03:57:20 +0000
+Reviewed-on: https://review.rdoproject.org/r/12742
+Project: openstack/glare-distgit
+Branch: refs/heads/pike-rdo
