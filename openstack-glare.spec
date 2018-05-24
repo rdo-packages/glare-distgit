@@ -322,3 +322,4 @@ exit 0
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/glare/commit/?id=03114fb80c9796d5524c3e425398f488c9573372
