@@ -91,7 +91,7 @@ Summary:          OpenStack Glare python libraries
 
 
 Requires:         python2-alembic >= 0.8.10
-Requires:         python2-cryptography >= 1.7.2
+Requires:         python2-cryptography >= 1.9
 Requires:         python2-eventlet >= 0.18.2
 Requires:         python2-futurist >= 1.2.0
 Requires:         python2-glance-store >= 0.22.0
@@ -124,7 +124,7 @@ Requires:         python2-oslo-vmware >= 0.11.1
 Requires:         python2-osprofiler >= 1.4.0
 Requires:         python-paste
 Requires:         python-paste-deploy >= 1.5.0
-Requires:         python2-pbr >= 1.8
+Requires:         python2-pbr >= 2.0.0
 Requires:         python-retrying >= 1.2.3
 Requires:         python2-routes >= 2.3.1
 Requires:         python-semantic-version >= 2.3.1
@@ -133,6 +133,7 @@ Requires:         python2-sqlalchemy >= 1.0.10
 Requires:         python2-swiftclient >= 2.2.0
 Requires:         python2-taskflow >= 2.7.0
 Requires:         python-webob >= 1.7.1
+Requires:         python2-wsme >= 0.8.0
 Requires:         python2-pyOpenSSL >= 16.2.0
 
 #test deps: python-mox python-nose python-requests
