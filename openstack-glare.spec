@@ -90,49 +90,50 @@ Glare Artifact Repository
 Summary:          OpenStack Glare python libraries
 
 
-Requires:         python-alembic >= 0.8.7
-Requires:         python-cryptography >= 1.0
+Requires:         python-alembic >= 0.8.10
+Requires:         python-cryptography >= 1.6
 Requires:         python-eventlet >= 0.18.2
 Requires:         python-futurist >= 0.11.0
-Requires:         python-glance-store >= 0.18.0
+Requires:         python-glance-store >= 0.22.0
 Requires:         python-httplib2 >= 0.7.5
 Requires:         python-iso8601 >= 0.1.11
 Requires:         python-jsonpatch >= 1.14
 Requires:         python-jsonschema >= 2.0.0
 Requires:         python-jwt >= 1.0.1
-Requires:         python-keystoneauth1 >= 2.18.0
+Requires:         python-keystoneauth1 >= 3.1.0
 Requires:         python-keystoneclient >= 1:3.8.0
 Requires:         python-keystonemiddleware >= 4.12.0
-Requires:         python-memcached >= 1.54
+Requires:         python-memcached >= 1.56
 Requires:         python-microversion-parse >= 0.1.2
 Requires:         python-monotonic >= 0.6
 Requires:         python-os-brick >= 1.8.0
 Requires:         python-oslo-concurrency >= 3.8.0
-Requires:         python-oslo-config >= 2:3.14.0
-Requires:         python-oslo-context >= 2.12.0
-Requires:         python-oslo-db >= 4.15.0
+Requires:         python-oslo-config >= 2:4.0.0
+Requires:         python-oslo-context >= 2.14.0
+Requires:         python-oslo-db >= 4.24.0
 Requires:         python-oslo-i18n >= 2.1.0
-Requires:         python-oslo-log >= 3.11.0
-Requires:         python-oslo-messaging >= 5.14.0
-Requires:         python-oslo-middleware >= 3.0.0
-Requires:         python-oslo-policy >= 1.17.0
+Requires:         python-oslo-log >= 3.22.0
+Requires:         python-oslo-messaging >= 5.24.2
+Requires:         python-oslo-middleware >= 3.27.0
+Requires:         python-oslo-policy >= 1.23.0
 Requires:         python-oslo-serialization >= 1.10.0
 Requires:         python-oslo-service >= 1.10.0
-Requires:         python-oslo-utils >= 3.18.0
+Requires:         python-oslo-utils >= 3.20.0
 Requires:         python-oslo-versionedobjects >= 1.17.0
 Requires:         python-oslo-vmware >= 0.11.1
 Requires:         python-osprofiler >= 1.4.0
 Requires:         python-paste
 Requires:         python-paste-deploy >= 1.5.0
-Requires:         python-pbr >= 1.8
+Requires:         python-pbr >= 2.0.0
 Requires:         python-retrying >= 1.2.3
-Requires:         python-routes >= 1.12.3
+Requires:         python-routes >= 2.3.1
 Requires:         python-semantic-version >= 2.3.1
 Requires:         python-six >= 1.9.0
 Requires:         python-sqlalchemy >= 1.0.10
 Requires:         python-swiftclient >= 2.2.0
 Requires:         python-taskflow >= 2.7.0
-Requires:         python-webob >= 1.6.0
+Requires:         python-webob >= 1.7.1
+Requires:         python2-wsme >= 0.8
 Requires:         pyOpenSSL >= 0.14
 
 #test deps: python-mox python-nose python-requests
