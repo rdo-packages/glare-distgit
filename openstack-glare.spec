@@ -371,3 +371,4 @@ stestr-%{pyver} run
 
 %changelog
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/glare/commit/?id=0b3583af22e2b14237a1cd1d116950c6b2f351b5
