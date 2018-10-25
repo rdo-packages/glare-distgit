@@ -327,7 +327,7 @@ exit 0
 
 
 %check
-stestr-%{pyver} run
+stestr-%{pyver} run --black-regex 'glare.tests.unit.test_unpacking.TestArtifactHooks.test_unpacking_database_big_archive'
 
 
 %files -n python%{pyver}-glare
@@ -370,4 +370,3 @@ stestr-%{pyver} run
 %endif
 
 %changelog
-
