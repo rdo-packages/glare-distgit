@@ -204,7 +204,7 @@ Summary:        OpenStack Glare api
 
 Requires:       %{name}-common = %{version}-%{release}
 
-%{?systemd_requires}
+%{?systemd_ordering}
 
 %description api
 %{common_desc}
