@@ -374,3 +374,4 @@ PYTHON=%{pyver_bin} stestr-%{pyver} run --black-regex 'glare.tests.unit.test_unp
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/glare/commit/?id=f75d1c3796456331293db10572bc05e970963f61
