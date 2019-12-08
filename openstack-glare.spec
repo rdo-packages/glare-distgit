@@ -12,7 +12,12 @@
 # End of macros for py2/py3 compatibility
 %global service glare
 
+# oslosphinx do not work with sphinx > 2
+%if %{pyver} == 3
+%global with_doc 0
+%else
 %global with_doc 1
+%endif
 
 %global common_desc \
 OpenStack Glare provides API for catalog of binary data along with its metadata.
