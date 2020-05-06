@@ -9,8 +9,8 @@ OpenStack Glare provides API for catalog of binary data along with its metadata.
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:             openstack-%{service}
-Version:          XXX
-Release:          XXX
+Version:          5.0.1
+Release:          1%{?dist}
 Summary:          Glare Artifact Repository
 License:          ASL 2.0
 URL:              https://github.com/openstack/%{service}
@@ -332,3 +332,6 @@ PYTHON=%{__python3} stestr run --black-regex 'glare.tests.unit.test_unpacking.Te
 %endif
 
 %changelog
+* Wed May 06 2020 RDO <dev@lists.rdoproject.org> 5.0.1-1
+- Update to 5.0.1
+
