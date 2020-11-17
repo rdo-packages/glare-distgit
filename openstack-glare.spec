@@ -21,7 +21,7 @@ Source1:          %{service}.logrotate
 Source10:         %{name}-api.service
 Source11:         %{name}-scrubber.service
 
-BuildRequires:    git
+BuildRequires:    git-core
 BuildRequires:    intltool
 BuildRequires:    python3-devel
 BuildRequires:    python3-pbr
