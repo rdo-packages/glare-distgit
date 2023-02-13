@@ -289,7 +289,7 @@ exit 0
 
 
 %check
-PYTHON=%{__python3} stestr run --black-regex 'glare.tests.unit.test_unpacking.TestArtifactHooks.test_unpacking_database_big_archive|glare.tests.unit.test_unpacking.TestArtifactHooks.test_unpacking_big_archive' || true
+PYTHON=%{__python3} stestr run --exclude-regex 'glare.tests.unit.test_unpacking.TestArtifactHooks.test_unpacking_database_big_archive|glare.tests.unit.test_unpacking.TestArtifactHooks.test_unpacking_big_archive' || true
 
 
 %files -n python3-glare
